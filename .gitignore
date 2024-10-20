@@ -1,0 +1,5 @@
+node_modules
+*.local
+.env
+cmd/directus-project.sql
+cmd/backup_db.sh
