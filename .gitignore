@@ -1,6 +1,5 @@
 /node_modules/
 /uploads/
 *.local
-.env
+.env_*
 cmd/directus-project.sql
-cmd/backup_db.sh
