@@ -2,4 +2,4 @@
 /uploads/
 *.local
 .env_*
-cmd/directus-project.sql
+cmd/directus-*.sql
