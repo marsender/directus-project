@@ -4,7 +4,7 @@
 
 This project require the following to get started:
 
-- Node.js v18, specifically version 18.17 or higher and less than 19
+- Node.js v22
 - Mariadb or mysql database
 
 ## Install

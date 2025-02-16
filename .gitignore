@@ -3,3 +3,4 @@
 *.local
 .env_*
 cmd/directus-*.sql
+cmd/directus-*.yaml

@@ -42,7 +42,7 @@ db_database=`cat $db_database_file`
 db_user=`cat $db_user_file`
 db_password=`cat $db_password_file`
 
-echo "*** Backup database $db_database ***" 
+echo "*** Backup database $db_database ***"
 options="--order-by-primary=true --comments=false"
 /usr/bin/mariadb-dump -u${db_user} "-p${db_password}" $options $db_database > $backup_path/$db_database.sql
 
