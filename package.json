@@ -10,6 +10,6 @@
 	"license": "ISC",
 	"description": "",
 	"dependencies": {
-		"directus": "^11.4.1"
+		"directus": "^11.5.1"
 	}
 }
