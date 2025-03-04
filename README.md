@@ -12,7 +12,7 @@ This project require the following to get started:
 Clone [Directus project repository](https://github.com/marsender/directus-project)
 
 ```bash
-git clone git@github.com:marsender/directus-project.git
+git clone https://github.com/marsender/directus-project.git
 cd directus-project
 ```
 
