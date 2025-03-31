@@ -4,7 +4,7 @@
 
 This project require the following to get started:
 
-- Node.js v22
+- Node.js v22.14 (lts/jod)
 - Mariadb or mysql database
 
 ## Install
