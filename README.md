@@ -35,3 +35,18 @@ npx directus start
 ```
 
 Open the app in your browser http://localhost:8055/admin/login
+
+## Backup database
+
+```bash
+./cmd/backup_db.sh
+```
+
+## Upgrade Directus
+
+Get the latest version number from https://github.com/directus/directus and update it in package.json, e.g.: "directus": "^11.9.2"
+
+```bash
+npm update
+npx directus database migrate:latest
+```
