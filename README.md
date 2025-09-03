@@ -1,10 +1,14 @@
 # directus-project
 
+![CI](https://github.com/marsender/directus-project/workflows/CI/badge.svg)
+
+This project is a self-hosted instance of Directus, an open-source data platform that provides a real-time GraphQL+REST API for your SQL database.
+
 ## Requirements
 
 This project require the following to get started:
 
-- Node.js v22.14 (lts/jod)
+- Node.js v22.19 (lts/jod)
 - Mariadb or mysql database
 
 ## Install

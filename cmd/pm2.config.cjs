@@ -4,7 +4,7 @@ module.exports = {
 			name: 'directus-project',
 			cwd: '/opt/git/marsender/directus-project',
 			script: 'npx',
-			args: 'directus start',
+			args: ['directus', 'start'],
 		},
 	],
 }
