@@ -24,12 +24,16 @@ cd directus-project
 
 ```bash
 echo -n 'ChangeMe' > .env_secret
+echo -n 'directus@your-domain.com' > .env_email_from
 echo -n 'directus-db' > .env_db_database
 echo -n 'directus-user' > .env_db_user
 echo -n 'ChangeMe' > .env_db_password
+echo -n 'your-domain.com' > .env_email_smtp_host
 echo -n 'ChangeMe' > .env_email_smtp_user
 echo -n 'ChangeMe' > .env_email_smtp_password
-echo -n '/' > .env_public_url
+echo -n 'https://directus.your-domain.com/' > .env_public_url
+echo -n 'https://your-domain.com/reset-password' > .env_password_reset_url_allow_list
+echo -n 'https://your-domain.com/confirm-registration' > .env_user_invite_url_allow_list
 ```
 
 ## Run app
