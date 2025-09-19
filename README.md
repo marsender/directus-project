@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/marsender/directus-project/workflows/CI/badge.svg)
 
+## Description
+
 This project is a self-hosted instance of Directus, an open-source data platform that provides a real-time GraphQL+REST API for your SQL database.
 
 ## Requirements
