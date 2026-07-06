@@ -11,5 +11,8 @@
 	"description": "",
 	"dependencies": {
 		"directus": "^11.14.1"
+	},
+	"overrides": {
+		"isolated-vm": "6.1.2"
 	}
 }
